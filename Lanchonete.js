@@ -1,4 +1,4 @@
-
+//Esse algoritmo foi feito por um iniciante em programação
 let lanches = [
     {
         nome: 'pizza',
