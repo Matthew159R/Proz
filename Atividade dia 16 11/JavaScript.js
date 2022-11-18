@@ -20,7 +20,7 @@ let Reais = Dolar * 5.31
 let distancia = prompt('Qual a distância do local em que você pretende chegar?')
 let km = prompt('Você va dirigir a quantos km/h ?')
 let tempo = distancia / km
-    if(distancia < km){
+    if(km < distancia){
         alert(`O tempo a ser dirigido é ${tempo} minutos`)
    }else if(tempo == 1){
         alert(`O tempo a ser dirigido é ${tempo} hora`)
