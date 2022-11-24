@@ -1,6 +1,6 @@
 print('Hoje é dia de folga, abaixo você vai decidir qual opção preferir')
 print('Escolha a opção pelo seu número da lista')
-folga = int(input('1.Ficar em casa e pedir um lanche no ifood / 2. Ir ao cinema para assistir um filme'))
+folga = int(input('1.Ficar em casa e pedir um lanche no ifood / 2. Ir ao cinema para assistir um filme / 3. Ir ao estádio para ver algum jogo de futebol'))
 pizza = 15
 hotDog = 5
 hamburguer = 12
@@ -90,3 +90,14 @@ elif folga == 2:
             print('Bom filme!🍿')
         else:
             print('Bom filme!')   
+elif folga == 3:
+    print('Gosta de futebol? Então escolha um dos jogos abaixo:')
+    jogos = int(input('[1] Espanha X México / [2] Brasil X Alemanha / [3] Russia X Ucrânia'))
+    if jogos == 1:
+        print('Ok, escolheu o jogo menor emocionante')
+    elif jogos == 2:
+        print('É isso aí! Vamos ver a vingança acontecer!')
+    elif jogos == 3:
+        print('Entendi, você quer ver o caos até no estádio! Boa escolha.')
+    else:
+        print('Jogo não identificado')
