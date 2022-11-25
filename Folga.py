@@ -19,7 +19,7 @@ if folga == 1:
             avalição = int(input('Obrigado por usar nosso sistema! Nos dê sua avaliação, isso é algo importantíssimo para o nosso crescimento. Digite sua quantidade de estrelas até 5'))
             estrelas = avalição * '⭐'
             print('Muito obrigado!', estrelas)
-            if estrelas > 5:
+            if avalição > 5:
                 print('Muito obrigado, mas o máximo da avalização é 5', '⭐' * 5)
         elif desejaContinuar == 'N':
             print('Pedido cancelado, por favor reinicie o algorítimo...')
@@ -37,7 +37,7 @@ if folga == 1:
             avalição = int(input('Obrigado por usar nosso sistema! Nos dê sua avaliação, isso é algo importantíssimo para o nosso crescimento. Digite sua quantidade de estrelas até 5'))
             estrelas = avalição * '⭐'
             print('Muito obrigado!', estrelas)
-            if estrelas > 5:
+            if avalição > 5:
                 print('Muito obrigado, mas o máximo da avalização é 5', '⭐' * 5)
         elif desejaContinuar == 'N':
             print('Pedido cancelado, por favor reinicie o algorítimo...')
@@ -54,7 +54,12 @@ if folga == 1:
             print('🍔' * quantidadeHamburguer)
             avalição = int(input('Obrigado por usar nosso sistema! Nos dê sua avaliação, isso é algo importantíssimo para o nosso crescimento. Digite sua quantidade de estrelas até 5'))
             estrelas = avalição * '⭐'
-            print('Muito obrigado!', estrelas)
+            if estrelas > 5:
+                 print('Muito obrigado, mas o máximo da avalização é 5', '⭐' * 5)
+            elif avalição <= 5:
+                print('Muito obrigado!', estrelas)
+            else:
+                print('Caracter não identificado, por favor reinicie o algoritmo...')
             if estrelas > 5:
                 print('Muito obrigado, mas o máximo da avalização é 5', '⭐' * 5)
         elif desejaContinuar == 'N':
