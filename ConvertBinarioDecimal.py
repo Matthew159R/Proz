@@ -1,5 +1,5 @@
 #O programa abaixo converte um número decimal para binário e um binário de 8 digitos para decimal
-DecimalOrBinario = int(input(' Digite[1] Para converter número binário em decimal. Digite[2] Para converter deciaml em binário.'))
+DecimalOrBinario = int(input(' Digite[1] Para converter número binário em decimal. Digite[2] Para converter decimal em binário.'))
 match DecimalOrBinario:
     case 1:
         print('==--------------------------------------==')
