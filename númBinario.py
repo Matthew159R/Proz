@@ -5,19 +5,11 @@ print('==---------------------------------------==')
 print('Obs: Só digite números binários')
 numBinario = []
 for i in range(0, 8):
-    number = int(input('|Digite o número binário|'))
+    number = int(input('[|Digite|]'))
     numBinario.append(number)
-binario = pow(numBinario[-1] * 2, 0) + pow(numBinario[-2] * 2, 1) + pow(numBinario[-3] * 2, 2) + pow(numBinario[-4] * 2, 3) + pow(numBinario[-5] * 2, 4) + pow(numBinario[-6] * 2, 5) + pow(numBinario[-7] * 2, 6) + pow(numBinario[-8] * 2, 7)         
-if numBinario[-1] == 1:
-    print('---------/')
-    print(f'O resultado é: ({binario + 1})')
-    print('\---------')
+decimal = pow(numBinario[7] * 2, 0) + pow(numBinario[6] * 2, 1) + pow(numBinario[5] * 2, 2) + pow(numBinario[4] * 2, 3) + pow(numBinario[3] * 2, 4) + pow(numBinario[2] * 2, 5) + pow(numBinario[1] * 2, 6) + pow(numBinario[0] * 2, 7)
+if numBinario[-1] == 0:
+    print('O número decimal é: {}'.format(decimal - 1))
 else:
-    print('---------/')
-    print(f'O resultado é: ({binario - 1})')
-    print('\---------')
-
-
-
-
+    print('O número decimal é: {}'.format(decimal))
 
