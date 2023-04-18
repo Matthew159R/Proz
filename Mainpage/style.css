@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: none;
 }
 
 body {
-    background-color: rgb(63, 59, 59);
+    background: linear-gradient(90deg, rgb(63, 59, 59), white);
+    
 }
 
 .navBarContainer {
@@ -17,6 +19,11 @@ body {
     width: 100vw;
     height: 40px;
     background-image: url('./imgs/background.jpg');
+}
+
+.navbar {
+  height: 40px;
+  width: 50px;
 }
 .home, .matters, .contact {
     color: white;
@@ -42,6 +49,7 @@ body {
 
 .containerHamburgerInfo {
     position: relative;
+    border: 0;
     bottom: 40px;
     display: flex;
     flex-direction: column;
@@ -126,4 +134,73 @@ body {
     box-shadow: 1px 1px 30px;
     display: none;
     animation: slide-left 0.7s forwards;
+}
+
+.presentation {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('imgs/backgroundPresentation.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 350px;
+  left: 400px;
+  bottom: 180px;
+  box-shadow: 5px 5px 50px 5px black;
+  border-radius: 20px;
+  color: white;
+}
+
+
+#email {
+  width: 300px;
+  height: 30px;
+  margin-left: 50px;
+  background: linear-gradient(90deg, rgb(34, 34, 253), rgb(27, 27, 27));
+  color: white;
+  border-radius: 20px;
+}
+
+.sendEmail {
+  width: 50px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: aquamarine;
+}
+
+
+.pilares {
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.mattersMain {
+  position: absolute;
+  display: flex;
+  top: 500px;
+  background-color: white;
+  width: 100%;
+  height: 1000px;
+}
+
+.card {
+  height: 100px;
+  
+}
+
+.BlackHoleImg {
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#blackHole {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#Tabby {
+  margin: 0 0 500px 300px;
 }
