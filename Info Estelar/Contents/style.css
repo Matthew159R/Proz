@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/d9d7ad104360973.5f6142500e188.png);
+    
+}
+.titulo{
+    text-align: center;
+    font-style: normal Arial;
+    font-size: 50px;
+    color: aliceblue;
+    box-shadow: 2px 2px 10px black;
+}
+.video{
+    text-align: center;
+    box-shadow: 2px 2px 10px black;
+}
+.paragrafos{
+    text-align: justify;
+    font: normal 20px italic;
+    color: azure;
+}
+h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    width: 500px;
+    margin-left: 410px;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px;
+}
+
+.img2{
+    text-align: center;
+}
+.tabby{
+    text-align: center;
+    font-style: normal Arial;
+    font-size: 50px;
+    color: aliceblue;
+    box-shadow: 2px 2px 10px black;
+}
+.espaco{
+    text-align: center;
+    font-style: normal Arial;
+    font-size: 50px;
+    color: aliceblue;
+}
+#corpo{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/02/77/99/97/1000_F_277999716_OF22cjg6Gmen81cKaCINZ67DEBHKugo8.jpg);
+}
+.contatos{
+    text-align: center;
+    color: aliceblue;
+    font-style: normal 26px italic;
+    
+}
