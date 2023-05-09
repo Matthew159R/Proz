@@ -1,0 +1,230 @@
+/*---------Estilo da barra de navegação---------*/
+header {
+    padding: 0 0 20px 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 100px 0 100px;
+    margin: 40px 0 0 -50px;
+    font-size: 25px;
+}
+
+.navLinks {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+/*
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+*/
+
+/*-------Estilo da primeiro section da página-------*/
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 300px 20px 100px;
+    margin: 100px 0 0 0;
+}
+
+.content-section {
+    width: 400px;
+}
+
+.login-button-introduction {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 1px black;
+}
+
+.title-introduction2 {
+    margin: 0;
+    font-size: 70px;
+}
+
+.title-introduction1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.img-introduction {
+    width: 500px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+/*------Estilo da section de thematic---------*/
+
+.thematic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-introduction {
+    font-size: 20px;
+}
+
+.content-thematic {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 0 0 510px;
+}
+
+.button-thematic {
+    width: 150px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 30px;
+}
+
+.texto-explicativo {
+    font-size: 30px;
+}
+
+.pequeno-texto {
+    font-size: 20px;
+}
+
+/*------Estilo da section de relatos-------*/
+
+.reports {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1000px;
+    box-sizing: border-box;
+    padding: 20px 100px 20px 100px;
+
+}
+
+.reports-container {
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.reports-reverse {
+    display: flex;
+    gap: 10px;
+}
+
+.img-reports {
+    width: 200px;
+    height: 200px;
+}
+/*--------Estilo da section de estatística---------*/
+
+.statistic {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.statistic-container {
+    display: flex;
+}
+
+.img-statistic {
+    width: 100px;
+}
+
+/*------Estilo do footer do site-------*/
+
+footer {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 100px 20px 100px;
+    margin-top: 100px;
+}
+
+.logo-footer {
+    width: 100px;
+}
+
+.img-social-media {
+    width: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.link1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.link2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-and-social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-social-medias {
+    display: flex;
+    gap: 20px;
+}
+
+.link-footer {
+    font-size: 30px;
+}
+
+/*------Estilo do popup para a apresentação-----*/
+
+.popup {
+    position: fixed;
+    bottom: -200px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  .popup.active {
+    bottom: 0;
+  }
+  .popup-link {
+    display: inline-block;
+    padding: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .popup-link:hover {
+    background-color: #005F6B;
+  }
+  
