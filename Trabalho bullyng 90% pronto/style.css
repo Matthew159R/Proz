@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family= Inter:wght@500;600 & display =swap');
+* {
+    font-family: 'Inter', sem serifa;
+    box-sizing: border-box;
+}
+
+/*---------Estilo da barra de navegação---------*/
+header {
+    padding: 0 0 20px 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 100px 0 100px;
+    margin: 40px 0 0 -50px;
+    font-size: 25px;
+}
+
+.navLinks {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+#home {
+    color: rgb(255, 115, 0);
+}
+
+#logo {
+    width: 150px;
+    height: 60px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*-------Estilo da primeiro section da página-------*/
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 100px 300px 20px 100px;
+    margin: 20px 0 0 0;
+    background-image: url('/imgs-index/pessoas-de-forca-reuniao-de-sucesso-das-maos-Recuperado.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 600px;
+}
+
+.não-é {
+    color: rgb(255, 115, 0);
+}
+
+.text-introduction {
+    font-size: 25px;
+}
+
+.logo-introduction {
+    width: 400px;
+    height: 150px;
+    margin: 0;
+}
+
+.logo-and-name  {
+    margin: 90px 0 0 280px;
+}
+
+.logo-and-name p {
+    font-size: 25px;
+    margin: 0 0 0 70px;
+}
+
+.logo-and-name span {
+    color: rgb(255, 115, 0);
+}
+
+.content-section {
+    width: 400px;
+}
+
+.login-button-introduction {
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 1px black;
+}
+
+.title-introduction2 {
+    margin: 0;
+    font-size: 70px;
+    text-shadow: 2px 3px 2px black;
+}
+
+.title-introduction1 {
+    font-size: 25px;
+    margin: 0;
+    color: rgb(255, 115, 0);
+    text-shadow: 2px 3px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-introduction {
+    width: 500px;
+    height: 400px;
+    margin-left: 200px;
+}
+
+/*------Estilo da sessão da area do professor---------*/
+
+.teacher-content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-section-teacher {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+}
+
+.title-teacher-content-section {
+    font-size: 25px;
+    line-height: 1.5;
+    text-indent: 20px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgb(255, 115, 0);
+}
+
+
+
+.style-title {
+    text-align: center;
+}
+
+.area-teacher-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-teacher-container button {
+    background-color: rgb(255, 115, 0);
+    border: 0;
+    border-radius: 30px;
+    width: 280px;
+    height: 50px;
+    font-size: 20px;
+}
+
+@keyframes buttonAnimationScale {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+  
+.area-teacher-container button:hover {
+   animation: buttonAnimationScale 0.5s forwards;
+   cursor: pointer;
+}
+
+.area-teacher-container p {
+    color: orange;
+}
+
+
+  
+/*------Estilo da sessão de relatos-------*/
+
+.title-telatos {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.relato-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-name {
+    display: flex;
+}
+
+.text-relato {
+    margin-left: 60px;
+    width: 800px;
+}
+
+.date {
+    margin: 0 0 0 620px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.all-relatos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+.opacity1 {
+    opacity: 0.5;
+} 
+.opacity2 {
+    opacity: 0.2;
+}
+.opacity3 {
+    opacity: 0.1;
+}
+.opacity-date {
+    opacity: 0.1;
+}
+
+.more-relatos {
+    width: 280px;
+    height: 50px;
+    background-color: rgb(161, 5, 161);
+    border-radius: 30px;
+    border: 0;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+.more-relatos:hover {
+    animation: buttonAnimationScale 0.5s forwards;
+    cursor: pointer;
+}
+/*
+.reports {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1000px;
+    box-sizing: border-box;
+    padding: 20px 100px 20px 100px;
+
+}
+
+.reports-container {
+    display: flex;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.reports-reverse {
+    display: flex;
+    gap: 10px;
+}
+
+.img-reports {
+    width: 200px;
+    height: 200px;
+}
+*/
+
+/*--------Estilo da sessão de chat---------*/
+
+.chat-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding:  20px 0 20px 200px;
+    overflow: hidden;
+    margin: 100px 0 50px 0;
+    height: 600px;
+}
+
+.anonimos-orange {
+    color: orange;
+}
+
+.title-and-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-and-text h3 {
+    font-size: 60px;
+    border: 0;
+    margin: 0;
+}
+
+.title-and-text p {
+    font-size: 30px;
+    width: 500px;
+    text-shadow: 1px 2px 1px gray;
+}
+
+.piramide {
+    margin-left: 70px;
+}
+
+.buttons-chat {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.button-conversation {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 115, 0);
+    border: 0;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+.button-relato {
+    width: 200px;
+    height: 50px;
+    background-color: purple;
+    border: 0;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.anonimo-img {
+    width: 300px;
+    margin: 0;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+}
+
+.button-conversation:hover, .button-relato:hover {
+    cursor: pointer;
+    animation: buttonAnimationScale 0.3s forwards;
+}
+
+.content-chat-animation {
+    position: relative;
+    animation:  chatConversationAnimation 1s forwards;
+}
+
+.content-chat-animation-reverse {
+    position: relative;
+    animation: content-chat-relato-animation-reverse 1s forwards;
+}
+
+
+
+.class-none {
+    display: none;
+}
+
+.class-flex {
+    display: flex;
+}
+
+.chat-conversation {
+    width: 400px;
+    height: 500px;
+    background-color: orange;
+    position: relative;
+    left: 1200px;
+    border-radius: 20px;
+    display: none;
+}
+
+.chat-conversationAnimation {
+    animation: chatConversationAnimationChat 1s forwards;
+}
+
+.chat-relato {
+    width: 400px;
+    height: 500px;
+    background-color: rgb(224, 68, 224);
+    position: relative;
+    left: 1200px;
+    border-radius: 20px;
+}
+
+.chat-relatoAnimation {
+    animation: chatConversationAnimationChat 1s forwards;
+}
+
+.chat-relatoAnimationReverse {
+    animation: chatRelatoAnimationReverse 1s forwards;
+}
+
+/*Animação para aparecer o chat de conversa*/
+
+@keyframes chatConversationAnimation {
+    from {
+        right: 0;
+    }
+
+    to {
+        right: 1500px;
+    }
+}
+
+@keyframes chatConversationAnimationChat {
+    from {
+        left: 1200px;
+    }
+
+    to {
+        left: 300px;
+    }
+}
+
+@keyframes chatRelatoAnimationReverse {
+    from {
+        left: 300px;
+    }
+
+    to {
+        left: 1200px;
+    }
+}
+
+@keyframes content-chat-relato-animation-reverse {
+    from {
+        right: 1500px;
+    }
+
+    to {
+        right: 0;
+    }
+}
+
+.container-name-email {
+    display: flex;
+    margin: 40px 10px 0 10px;
+}
+
+.container-name-email input {
+    height: 30px;
+    border-radius: 20px;
+    border: solid 2px orange;
+    margin-top: 10px;
+}
+
+label {
+    margin-left: 35px;
+}
+
+.chat-relato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+textarea {
+    border: solid 2px orange;
+    resize: none;
+    width: 90%;
+    margin: 0 0 0 19px;
+    border-radius: 5px 5px 30px 5px;
+}
+
+.container-textarea {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.container-textarea p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit {
+    margin: 40px 0 10px 88px;
+    background-color: rgb(163, 47, 163);
+    border: solid 2px orange;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    bottom: 455px;
+    left: 350px;
+    box-sizing: border-box;
+    border: dotted 2px white;
+    border-radius: 50%;
+}
+
+.close:hover {
+    animation: closeAnimatio 0.2s forwards;
+}
+
+@keyframes closeAnimatio {
+    from {
+        padding: 0;
+    }
+
+    to {
+        padding: 2px;
+    }
+}
+/*--------Estilo da section de estatística---------*/
+
+.statistic {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.statistic-container {
+    display: flex;
+}
+
+.img-statistic {
+    width: 100px;
+}
+
+/*------Estilo do footer do site-------*/
+
+footer {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 20px 100px 20px 100px;
+    margin-top: 100px;
+}
+
+.logo-footer {
+    width: 100px;
+}
+
+.img-social-media {
+    width: 50px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.link1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.link2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-and-social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-social-medias {
+    display: flex;
+    gap: 20px;
+}
+
+.link-footer {
+    font-size: 30px;
+}
+
+/*------Estilo do popup para a apresentação-----*/
+
+.popup {
+    position: fixed;
+    bottom: -200px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  .popup.active {
+    bottom: 0;
+  }
+  .popup-link {
+    display: inline-block;
+    padding: 10px;
+    background-color: #008CBA;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .popup-link:hover {
+    background-color: #005F6B;
+  }
+  
